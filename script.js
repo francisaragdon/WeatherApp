@@ -28,11 +28,8 @@ window.addEventListener('load', () => {
                     locationTimezone.textContent = data.timezone;
                     //Set Icon
                     setIcons(icon, document.querySelector(".icon"));
-                });
-
-
+                })
         });
-
     } else {
         h1.textContent = "No location";
     }
